@@ -1,0 +1,94 @@
+/* Stock Screening Tool Container */
+.bg-white {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.bg-white h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Filter Criteria */
+.mb-4 h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.mb-4 select,
+.mb-4 input {
+    margin-right: 8px;
+    padding: 6px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.bg-blue-500 {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.bg-blue-500:hover {
+    background-color: #45a049;
+}
+
+.bg-red-500 {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.bg-red-500:hover {
+    background-color: #c0392b;
+}
+
+/* Screened Stocks Table */
+.w-full {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.w-full th,
+.w-full td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.bg-gray-200 {
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+.hover\\:bg-gray-300:hover {
+    background-color: #e2e8f0;
+}
+
+.bg-gray-100 {
+    background-color: #f9f9f9;
+}
+
+.w-full tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Sorting Indicators */
+.w-full th.sort-asc:after {
+    content: ' ▲';
+}
+
+.w-full th.sort-desc:after {
+    content: ' ▼';
+}

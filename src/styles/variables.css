@@ -1,0 +1,12 @@
+/* frontend/src/styles/variables.css */
+
+:root {
+    --primary-color: #1f2937;
+    --secondary-color: #2563eb;
+    --text-color: #111827;
+    --background-color: #f9fafb;
+    --button-bg: #2563eb;
+    --button-bg-hover: #1d4ed8;
+    --error-color: #dc2626;
+  }
+  
